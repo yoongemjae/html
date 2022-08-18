@@ -21,6 +21,17 @@ body {
     width: calc(100% - 300px);
     margin: 200px auto;
 }
+
+.cont03 .title h3 {
+    font-size: 30px;
+    font-family: 'NotoSansKR';
+    font-weight: 800;
+}
+.cont03 .title p {
+    margin: 4px 0 4px;
+    font-family: 'NotoSansKR';
+}
+
 .cont03 .list {
     height: 85vh;
     display: flex;
@@ -74,7 +85,7 @@ body {
 }
 .cont03 .list .ltem .info h4 {
     font-size: 30px;
-    font-family: NotoSansKR-Bold;
+    font-family: 'NotoSansKR';
     
 }
 .cont03 .list .ltem .info p {
@@ -101,9 +112,3 @@ body {
     font-size: 14px;
 }
 
-h3 {
-    font-family: NotoSans;
-}
-.cont03 .title .list .item h4 {
-    font-family: NotoSans;
-}
